@@ -1,1 +1,189 @@
-# wikza-website-2026
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIKZA INVESTMENTS LTD</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            color: #1E3A8A;
+            line-height: 1.6;
+        }
+        a { text-decoration: none; color: inherit; }
+        header {
+            background: url('truck-hero.png') no-repeat center center/cover;
+            height: 90vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .btn {
+            padding: 12px 25px;
+            background: #F59E0B;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1E3A8A;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .about img {
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .service-card {
+            flex: 1 1 250px;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .service-card img {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+        .contact {
+            background: #1E3A8A;
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: space-between;
+        }
+        .contact-info, .contact-form {
+            flex: 1 1 400px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: none;
+        }
+        .contact-form button {
+            background: #F59E0B;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background: #1E3A8A;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        @media(max-width: 768px){
+            .services { flex-direction: column; align-items: center; }
+            .contact { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+```
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<header id="home">
+    <h1>Reliable Transport & Logistics Solutions Across Uganda</h1>
+    <p>Delivering your goods safely and on time since 2018</p>
+    <button class="btn">Get a Quote</button>
+</header>
+
+<section id="about" class="about">
+    <h2>About WIKZA INVESTMENTS LTD</h2>
+    <div style="display:flex; flex-wrap: wrap; gap: 20px; align-items:center;">
+        <p style="flex:1;">Founded in 2018, WIKZA INVESTMENTS LTD is committed to providing efficient transport, delivery, and logistics services across Uganda. Our mission is to make transportation simple, safe, and reliable for businesses and individuals alike.</p>
+        <img src="team.png" alt="Our Team">
+    </div>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service-card">
+            <img src="truck-icon.png" alt="Transport & Delivery">
+            <h3>Transport & Delivery</h3>
+            <p>Fast and secure deliveries nationwide.</p>
+        </div>
+        <div class="service-card">
+            <img src="logistics-icon.png" alt="Logistics Management">
+            <h3>Logistics Management</h3>
+            <p>Efficient planning for smooth operations.</p>
+        </div>
+        <div class="service-card">
+            <img src="consult-icon.png" alt="Consultation Services">
+            <h3>Consultation Services</h3>
+            <p>Expert advice for transportation solutions.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>We’d love to hear from you. Call, email, or visit our office.</p>
+        <p>📞 Phone: +256 782 044 123 | +256 759 598 973</p>
+        <p>✉️ Email: wikzainvestmentld@gmail.com</p>
+        <p>📍 Address: P.O.BOX 11991, Kampala, Uganda</p>
+    </div>
+    <div class="contact-form">
+        <h2>Contact Form</h2>
+        <form>
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" rows="5" placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    © 2026 WIKZA INVESTMENTS LTD. All Rights Reserved.
+</footer>
+```
+
+</body>
+</html>
